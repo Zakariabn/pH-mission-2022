@@ -51,7 +51,7 @@ h1 {
   width: 100%;
   display: flex;
   align-items: flex-end;
-  padding: 5rem 5rem 3rem;
+  padding: 5rem 5rem 6rem;
 }
 .intro .left-site {
   flex-basis: 60%;
@@ -111,3 +111,44 @@ h1 {
 }
 
 /*Intro section design end hear*/
+
+.three-card {
+  
+}
+.three-card .card-title {
+  color: var(--black);
+  text-align: center;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+.three-card .card-title .color-year {
+  color: var(--orange);
+}
+.three-card .card-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.three-card .card-container .card-1 {
+  background-color: rgba(79, 157, 166, 10%);
+  margin: 1rem;
+}
+.three-card .card-container .card-2 {
+  background-color: rgba(255, 89, 89, 10%);
+  margin: 1rem;
+}
+.three-card .card-container .card-3 {
+  background-color: rgba(255, 173, 90, 10%);
+  margin: 1rem;
+}
+.three-card .card-container [class|=card] {
+  width: auto;
+  padding: .3rem .5rem;
+  border-radius: 10px;
+  
+}
+.three-card .card-container [class|=card] img{
+  width: 100px;
+}
