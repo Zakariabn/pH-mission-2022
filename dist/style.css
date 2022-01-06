@@ -16,6 +16,8 @@
 
   --whtie: #E5E5E5;
 
+  --global-padding: 5rem 5rem 6rem;
+
 /* font faminly */
   --title-font: 'Playfair Display', serif;
   --main-font: 'Poppins', sans-serif;
@@ -51,7 +53,7 @@ h1 {
   width: 100%;
   display: flex;
   align-items: flex-end;
-  padding: 5rem 5rem 6rem;
+  padding: 5rem 5rem 1rem;
 }
 .intro .left-site {
   flex-basis: 60%;
@@ -113,7 +115,7 @@ h1 {
 /*Intro section design end hear*/
 
 .three-card {
-  
+  padding: 5rem 5rem 1rem;
 }
 .three-card .card-title {
   color: var(--black);
@@ -151,4 +153,74 @@ h1 {
 }
 .three-card .card-container [class|=card] img{
   width: 100px;
+}
+/*mission card design end hear*/
+
+.vision {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 5rem 1rem;
+}
+.vision .left-site{
+  flex-basis: 40%;
+  width: 100%;
+}
+.vision .left-site img {
+  width: inherit;
+}
+
+
+.vision .right-site {
+  flex-basis: 60%;
+  width: 100%;
+  margin-left: 2rem;
+}
+.vision .right-site h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.vision .right-site p {
+  margin-bottom: 2rem;
+}
+.vision .right-site .documentation-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+/*Vission section End hear */
+.community {
+  display: flex;
+  align-items: center;
+  padding: 5rem 5rem 6rem;;
+}
+.community .left-site {
+  flex-basis: 70%;
+  width: 100%;
+}
+.community .left-site {
+  flex-basis: 60%;
+  width: 100%;
+  margin-left: 2rem;
+}
+.community .left-site h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.community .left-site p {
+  margin-bottom: 2rem;
+}
+.community .left-site .documentation-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+
+.community .right-site {
+  flex-basis: 40%;
+  width: 100%;
+}
+.community .right-site img{
+  width: inherit;
 }
