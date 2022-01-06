@@ -1,4 +1,5 @@
 :root {
+/* color */
   --main-color: blue;
 
   --orange: #FFAD5A;
@@ -14,6 +15,11 @@
   --light-dark-gray: #424242
 
   --whtie: #E5E5E5;
+
+/* font faminly */
+  --title-font: 'Playfair Display', serif;
+  --main-font: 'Poppins', sans-serif;
+
 }
 
 html {
