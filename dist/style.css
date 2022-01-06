@@ -12,7 +12,7 @@
 
   --black: #000000;
   --dark-gray: #3E3E3E;
-  --light-dark-gray: #424242
+  --light-dark-gray: #424242;
 
   --whtie: #E5E5E5;
 
@@ -38,7 +38,7 @@ html {
 
 body {
   background-color: var(--white);
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: auto;
   font-family: var(--main-font);
 }
@@ -157,7 +157,6 @@ h1 {
 /*mission card design end hear*/
 
 .vision {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,4 +222,78 @@ h1 {
 }
 .community .right-site img{
   width: inherit;
+}
+ 
+/*Community section end hear*/
+
+.weather-app {
+  padding: 5rem 5rem 1rem;
+}
+.weather-app .title {
+  margin-bottom: 2rem;
+}
+.weather-app .title .color-title {
+  color: var(--orange)
+}
+
+.weather-app .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weather-app .title {
+  text-align: center;
+}
+
+.weather-app .container .left-site {
+
+}
+.weather-app .container .left-site img {
+  height: 300px;
+  margin-bottom: 3rem;
+}
+
+.weather-app .container .right-site {
+  margin-left: 2rem;
+  text-align: center;
+
+}
+.weather-app .container .right-site .heading {
+  margin-bottom: 2rem;
+}
+.weather-app .container .right-site .heading .color-heading {
+  color: var(--orange);
+}
+.weather-app .container .right-site p {
+  max-width: 600px;
+  margin-bottom: 3rem;
+}
+.weather-app .container .right-site .features-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+/* {
+  need to add a section hear
+} */
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  background-color: var(--black);
+  color: white;
+  text-align: center;
+}
+.footer .footer-title {
+  font-family: var(--title-font);
+  margin-bottom: 1rem;
+}
+.footer .footer-title .color-year {
+  color: var(--orange);
+}
+.footer p {
+  color: var(--light-orange);
 }
