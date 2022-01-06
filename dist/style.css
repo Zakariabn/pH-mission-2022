@@ -1,0 +1,44 @@
+:root {
+  --main-color: blue;
+
+  --orange: #FFAD5A;
+  --light-orange: #FFF4D6;
+
+  --tomato: #FF5959;
+  --tomato-low-opacity: rgba(255, 89, 89, 10%);
+
+  --casal: #4F9DA6;
+
+  --black: #000000;
+  --dark-gray: #3E3E3E;
+  --light-dark-gray: #424242
+
+  --whtie: #E5E5E5;
+}
+
+html {
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+}
+
+.intro {
+  display: flex;
+  margin: 1.5rem
+}
+.intro .left {
+
+}
+.intro .left .title{
+  
+}
