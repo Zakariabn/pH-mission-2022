@@ -1,6 +1,4 @@
-@media (min-width: 1200px) {
-  .intro, .three-card, .vision, .community, .weather-app {
-    max-width: 1200px;
-    margin: auto;
-  }
+.intro, .three-card, .vision, .community, .weather-app {
+  max-width: 1200px;
+  margin: auto;
 }
