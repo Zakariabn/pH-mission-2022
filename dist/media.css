@@ -2,4 +2,5 @@
   .intro, .three-card, .vision, .community, .weather-app {
     max-width: 1200px;
     margin: auto;
+  }
 }
