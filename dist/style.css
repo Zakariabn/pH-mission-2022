@@ -247,7 +247,7 @@ h1 {
 }
 
 .weather-app .container .left-site {
-
+  display:inherit;
 }
 .weather-app .container .left-site img {
   height: 300px;
