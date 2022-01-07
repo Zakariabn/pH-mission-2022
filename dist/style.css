@@ -183,6 +183,11 @@ h1 {
 .vision .right-site p {
   margin-bottom: 2rem;
 }
+.vision .right-site p .author {
+  display: block;
+  margin-top: .3rem;
+  margin-left: 2rem;
+}
 .vision .right-site .documentation-btn {
   padding: 10px 20px;
   border-radius: 4px;
@@ -192,7 +197,7 @@ h1 {
 .community {
   display: flex;
   align-items: center;
-  padding: 5rem 5rem 6rem;;
+  padding: 5rem 5rem 0rem;
 }
 .community .left-site {
   flex-basis: 70%;
@@ -209,6 +214,9 @@ h1 {
 }
 .community .left-site p {
   margin-bottom: 2rem;
+}
+.community .left-site p .author {
+  margin-left: 1rem;
 }
 .community .left-site .documentation-btn {
   padding: 10px 20px;
@@ -307,15 +315,15 @@ h1 {
 .footer .dev a .color-name {
   color: var(--tomato);
   animation-name: bridging-effect;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 
 /*Just for fun*/
 @keyframes bridging-effect {
   0%{color: red;}
-  30%{color: green;}
-  60%{color: blue;}
-  100%{color: red;}
+  50%{color: green;}
+  100%{color: blue;}
 }
